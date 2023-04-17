@@ -1,4 +1,4 @@
-function kidsWithCandies(candies: number[], extraCandies: number): boolean[] {
+export function kidsWithCandies(candies: number[], extraCandies: number): boolean[] {
    
    // get the greatest value of array
 const greatest = Math.max.apply(null, candies);
